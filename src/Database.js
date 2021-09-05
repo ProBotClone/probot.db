@@ -1,11 +1,11 @@
 const fetch = require('node-fetch');
 
 class Database {
-  constructor(authToken, guildId, options = {}) {
+  constructor(authToken, guildId, options) {
     this.authToken = authToken;
     this.guildId = guildId;
-    this.embedName = options.embedName ?? 'probot.db';
-    this.baseUrl = options.baseUrl ?? 'https://api.probot.io';
+    this.embedName = options?.embedName ?? 'probot.db';
+    this.baseUrl = options?.baseUrl ?? 'https://api.probot.io';
   }
 
   async _request(endpoint, method, body = {}) {
