@@ -65,7 +65,7 @@ class Database {
 
   async clear() {
     const { id: embed_id } = await this._fetchEmbed();
-    return this.request('/', 'PUT', { method: 'DELETE_EMBED', embed_id });
+    return this._request('/', 'PUT', { method: 'DELETE_EMBED', embed_id });
   }
 }
 
