@@ -1,6 +1,6 @@
 {
   "name": "probot.db",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "probot.io embeds based database",
   "main": "src/index.js",
   "scripts": {
