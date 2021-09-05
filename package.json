@@ -1,0 +1,25 @@
+{
+  "name": "probot.db",
+  "version": "2.0.0",
+  "description": "probot.io embeds based database",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProBotClone/probot.db.git"
+  },
+  "author": "xiJulian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProBotClone/probot.db/issues"
+  },
+  "homepage": "https://github.com/ProBotClone/probot.db#readme",
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
